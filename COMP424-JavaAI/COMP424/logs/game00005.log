@@ -1,0 +1,16 @@
+# Server version 0.08 running on 192.168.0.100:8123
+# Game ID: 5
+# Board class: halma.CCBoard
+# Timeout: 1000
+# Date: Thu Mar 20 13:51:02 EDT 2014
+# Player 1: Player-0, 'random', running on 192.168.0.100
+# Player 2: Player-1, 'random', running on 192.168.0.100
+# Player 3: Player-2, 'random', running on 192.168.0.100
+# Player 4: Player-3, 'random', running on 192.168.0.100
+START Player-0 random
+START Player-1 random
+START Player-2 random
+START Player-3 random
+GAMEOVER TIMEOUT Player-0
+WINNER Player-1
+# Game ended: Thu Mar 20 13:51:04 EDT 2014

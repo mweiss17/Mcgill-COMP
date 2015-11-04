@@ -1,0 +1,151 @@
+<html>
+<head>
+<body background = "background.jpg" text="#999966">
+</head>
+
+<body>
+<Center>
+<h1><Font color="#99FFFF">The Kitten Catalogue</Font><h1>
+
+</Center>
+
+<table border = "2" align="left">
+
+<tr>
+<td align="center"><b><Font color="aquamarine">How to get around in the KittenStore:</Font><b></td>
+</tr>
+
+<tr>
+<td align="center"><a href = http://cs.mcgill.ca/~mweiss17/home.html><Button>Home</Button></a></td>
+</tr>
+
+<tr>
+<td align="center"><a href = http://cs.mcgill.ca/~mweiss17/catalogue.html><Button>Go to the Catalogue!</button></a></td>
+</tr>
+<tr>
+<td align="center"><a href = "http://cs.mcgill.ca/~mweiss17/login.html" target="_blank"><Button>Want to join up? Click here to login!</Button></a></td>
+</tr>
+
+</table>
+
+<form name="purchaseOrder" action="cgi-bin/Purchase.py" method="post">
+<br>
+username:
+<input type="text" name="user">
+<br>
+password:
+<input type="password" name="password"><br>
+<br>
+
+<!--THIS IS THE FIRST TABLE OF KITTENS, 3 KITTENS ARE DISPLAYED-->
+<table border="2" align="center">
+<tr>
+<th><Font color="#FFFFFF">This is Oreo</Font></th><th><Font color="#FFFFFF">This is Skittles</Font></th><th><Font color="#FFFFFF">This is Cream</Font></th>
+</tr>
+
+<tr>
+<td><img src="oreo.jpg" width="313" height="417" alt="oreo"></td>
+<td><img src="skittles.jpg" width="313" height="417" alt="skittles"></td>
+<td><img src="cream.jpg" width="313" height="417" alt="cream"></td>
+<tr>
+
+<tr>
+<td>Oreo is a strong and opinionated male cat. If you<br> 
+are a lover of black and white cats, then Oreo is<br>
+for you! He gets along well with children, and<br>
+loves playing in a yard. He is already neutered,<br>
+so letting him go outside is great! This cat is<br>
+best paired with a rural owner<br>
+<br>
+<input type="checkbox" name = "oreo"><Font color="#FF0066">Take Oreo home today!</Font></td>
+
+<td>Skittles is a little pudge-cat. We, employees of<br>
+the Kitty Store, are sure she will grow up into a <br>
+great housecat. She is very afraid of loud noises<br>
+and mice. Her favorite things are tuna popsicles<br>
+and lying on the couch. She hates long walks on<br>
+the beach. She has all her shots and vaccines, <br>
+and is ready to be cuddled today!<br>
+<br>
+<input type="checkbox" name="skittles"><Font color="#FF0066">Take Skittles home today!</Font></td>
+
+<td>Cream is another male cat. He is very playful<br>
+and his favorite thing is yarn. If you knit, this cat<br>
+is not for you. He will destroy your knitted hat, <br>
+gloves, and sweaters. Fear him. He makes up for<br>
+this trait with an innocent look and through his<br>
+ever surprising nature. He is a born climber,<br>
+mouser, and acrobat.<br>
+<br>
+<input type="checkbox" name="cream"><Font color="#FF0066">Take Cream home today</Font></td>
+
+<tr>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+</tr>
+
+
+<tr>
+<th><Font color="#FFFFFF">Iams Proactive Health Kitten Food</Font></th><th><Font color="#FFFFFF">Cat Harness</Font></th><th><Font color="FFFFFF">Cat Rat Fishing Toy</Font></th>
+</tr>
+
+<tr>
+<td><img src="CatFood.jpg" width="313" height="417" alt="CatFood"></td>
+<td><img src="CatHarness.jpg" width="313" height="417" alt="CatHarness"></td>
+<td><img src="CatToy.jpg" width="313" height="417" alt="CatToy"></td>
+</tr>
+
+<tr>
+<td>Your new kitten's first 12 months of life<br>
+are important to his or her development! We know<br>
+you want a strong kitteh, and this Iams Kitten<br>
+food delivers the nutrition to keep her growing <br>
+strong and silky. We promise that your kitteh will<br>
+build strong muscles, especially if you also buy<br>
+the Cat Harness and exerise her!</td>
+
+<td>This cat harness is completely adjustable.<br>
+Your cat will be protected from injury due to <br>
+neck strain, and be comfortable to move freely<br>
+without tangling herself up in her leash.<br>
+If you want to keep your cat healthy, make<br>
+sure that you have a few months free to train<br>
+your cat. It is a real investment, but to unleash<br>
+the raw, hunter cat from your apartment cat<br>
+will make both you and your cat very happy</td>
+
+<td>The Cat Rat Fishing Toy is a mouse on a rope<br>
+with a pole. Whether you are a lazy or<br>
+enthusiastic cat owner, this toy is for you and<br>
+your cat. Playing with your cat not only bonds<br>
+you and your cat, but trains your cat to murder.<br>
+Like he is supposed to.</td>
+</tr>
+
+<tr>
+<td><input type="checkbox" name="kittenFood"><Font color="#FF0000">I have a hungry Kitten!</Font>
+<br>
+<input type="text" quantity="amount" size="1" maxlength="1"><Font color="#330033"> How much would you like?</Font></td>
+<td><input type="checkbox" name="catHarness"><Font color="#FF0000"> I have a rambunctious cat!</Font>
+<br>
+<input type="text" quantity="amount" size="1" maxlength="1"><Font color="#330033"> How many would you like?</Font></td>
+<td><input type="checkbox" name="catToy"><Font color="#FF0000"> I have a mouser!</Font>
+<br>
+<input type="text" quantity="amount" size="1" maxlength="1"><Font color="#330033"> How many would you like?<Font></td>
+</tr>
+</table>
+<br>
+
+
+<br>
+<br>
+
+<center>
+<input type="submit" value="Submit" align="right">
+</center>
+
+</form>
+
+</body>
+</html>

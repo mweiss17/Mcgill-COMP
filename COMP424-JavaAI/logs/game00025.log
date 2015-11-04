@@ -1,0 +1,14 @@
+# Server version 0.08 running on 192.168.1.160:8123
+# Game ID: 25
+# Board class: halma.CCBoard
+# Timeout: 300000
+# Date: Sat Mar 15 17:23:54 EDT 2014
+# Player 1: Player-0, 'random', running on localhost
+# Player 2: Player-1, 'random', running on 192.168.1.160
+# Player 3: Player-2, 'random', running on 192.168.1.160
+# Player 4: Player-3, 'random', running on 192.168.1.160
+START Player-0 random
+START Player-1 random
+START Player-2 random
+START Player-3 random
+0 (2,2) (4,0)

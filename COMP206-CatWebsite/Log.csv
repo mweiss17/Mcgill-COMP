@@ -1,0 +1,20 @@
+""
+rick,5,Total owed amount = 200
+mklock,10,Owed Amount = 300
+bbob;Purchase Items:kittenFood ;5
+bbob;Purchase Items:catHarness catToy ;30
+bbob;Purchase Items:catToy ;10
+bbob;Purchase Items:catToy ;10
+bbob;Purchase Items:catToy ;10
+mklock;Purchase Items:kittenFood ;5
+mklock;Purchase Items:catHarness ;20
+mklock;Purchase Items:catHarness ;20
+mklock;Purchase Items:catHarness ;20
+mklock;Purchase Items:catHarness ;20
+TA;Purchase Items:oreo ;100
+TA;Purchase Items:oreo skittles ;300
+TA;Purchase Items:oreo skittles cream catHarness ;620
+TA;Purchase Items:kittenFood catHarness catToy ;35
+TA;Purchase Items:oreo ;100
+TA;Purchase Items:skittles ;200
+bbob;Purchase Items:skittles ;200

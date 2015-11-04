@@ -1,0 +1,18 @@
+1	random	random	random	random	Player-1	random	100	game00001.log	
+3	random	random	random	random	Player-1	random	100	game00003.log	
+6	random	random	random	random	Player-1	random	100	game00006.log	
+7	random	random	random	random	Player-1	random	100	game00007.log	
+9	random	random	random	random	Player-1	random	100	game00009.log	
+11	random	random	random	random	Player-1	random	10	game00011.log	TIMEOUT Player-0
+20	random	random	random	random	Player-1	random	100	game00020.log	
+21	random	random	random	random	Player-1	random	100	game00021.log	
+22	random	random	random	random	Player-1	random	100	game00022.log	
+23	random	random	random	random	Player-1	random	100	game00023.log	
+24	random	random	random	random	Player-1	random	100	game00024.log	
+31	random	random	random	random	Player-1	random	100	game00031.log	
+34	random	random	random	random	Player-0	random	100	game00034.log	
+35	random	random	random	random	DRAW	NOBODY	5000	game00035.log	
+36	random	random	random	random	Player-1	random	101	game00036.log	
+38	random	random	random	random	Player-1	random	100	game00038.log	
+39	random	random	random	random	DRAW	NOBODY	5000	game00039.log	
+41	random	random	random	random	DRAW	NOBODY	5000	game00041.log	

@@ -1,0 +1,67 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1138\cocoasubrtf470
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;}
+{\colortbl;\red255\green255\blue255;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\i\b\fs24 \cf0 PA1 Notes\
+
+\i0\b0 C Private Constant Int -> BLOCK_SIZE bytes\
+Declare by writing :\
+
+\i private const int BLOCK_SIZE = 10;\
+private char const *file_name = "filesystem.txt"\
+private int max_blocks = 10;\
+private int disk_type = ???;\
+
+\i0 \
+must be a function to implement a new filesystem in a file. Pass a pointer to this file.\
+int mydisk_init(char const *file_name, int max_blocks, int disk_type);\
+Return type is 0 on success or 1 if any error happens\
+\
+First thing this function does is to open the file and fill it with REAL zeroes. If it already exists then override it and wipe it. If it doesn't exist then create it.\
+\
+
+\i int mydisk_read_block(int block_id, void *buffer);\
+int mydisk_write_block(int block_id, void * buffer);\
+
+\i0 \
+Block id  < = max_blocks\
+Buffer is guaranteed to have exactly BLOCK_SIZE bytes.\
+mydisk_read_block must read block into buffer\
+mydisk_write_block must store the buffer content to the disk (overwrites the content).\
+return 0 on success and 1 if parameters are invalid\
+Use fread(), fwrite(), fseek() in implementation\
+\
+
+\i int mydisk_read(int start_address, int bytes, void *buffer);\
+int mydisk_write (int start_address, int bytes, void *buffer);\
+
+\i0 \
+Built on top of previous functions. Valid disk address ranges from 0 to max_blocks * BLOCK_SIZE-1.  read/write nbytes bytes starting at start_address into memory. buffer is the source/destination memory buffer, which is guaranteed to have exactly bytes. Beware of ending in the middle of a block. Check parameters, return 0 on success and 1 if invalid.\
+\
+Close the virtual disk with \
+
+\i void mydisk_close();\
+
+\i0 \
+
+\b FIFO write-back cache implementation to reduce access latency\
+\
+
+\i\b0 int init_cache(int nblocks)\
+void close_cache();\
+void *get_cached_block: 
+\i0 find the cache entry that stores the given block id\
+
+\i void *create_cached_block(int block_id):
+\i0  gotta use malloc\
+
+\i void mark_dirty(int block_id);\
+
+\i0 Must extend mydisk_read_block() and write to enable caching\
+\
+Calculate latency via extending mydisk_read and mydisk_write\
+\
+\
+}
