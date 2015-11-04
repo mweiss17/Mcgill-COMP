@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>22A7101B-200D-4EFD-B110-F0C4926F62BC</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Bastille</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>36BC26C9F4EFFEEE3EF6A3617791B01B2D8E958A</key>
+		<string>https://github.com/KayhanQ/CivetAtelier.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Bastille/Bastille.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>36BC26C9F4EFFEEE3EF6A3617791B01B2D8E958A</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/KayhanQ/CivetAtelier.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>36BC26C9F4EFFEEE3EF6A3617791B01B2D8E958A</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>36BC26C9F4EFFEEE3EF6A3617791B01B2D8E958A</string>
+			<key>IDESourceControlWCCName</key>
+			<string>CivetAtelier</string>
+		</dict>
+	</array>
+</dict>
+</plist>
